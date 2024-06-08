@@ -1,0 +1,110 @@
+[
+    {
+        "id": "1",
+        "name": "Weddings",
+        "image": "https://i.ibb.co/QcCJ9mD/wedding.png",
+        "price": "$5000",
+        "short_description": "Make your dream wedding a reality with our all-inclusive planning services.",
+        "large_description": "Your wedding day is one of the most significant moments in your life, and we are dedicated to making it as magical and memorable as possible. Our comprehensive wedding planning services include everything you need for a flawless celebration, from venue selection to decor, catering, and entertainment. We take the time to understand your vision and preferences, ensuring that every detail reflects your unique love story. Whether you dream of a grand affair in a luxurious setting or an intimate ceremony with close friends and family, we tailor our services to meet your needs. Our team of experienced planners handles all the logistics, coordination, and intricate details, so you can focus on enjoying your special day without any stress. We work with trusted vendors and suppliers to provide high-quality services that exceed your expectations. Our goal is to create a wedding that is not only beautiful and seamless but also a true reflection of your personality and style. Let us help you create the wedding of your dreams, filled with love, joy, and cherished memories.",
+        "button_text": "Plan Your Wedding"
+    },
+    {
+        "id": "2",
+        "name": "Birthday Parties",
+        "image": "https://i.ibb.co/BrNprb5/Baby-s-First-Birthday.png",
+        "price": "$800",
+        "short_description": "Celebrate your special day with a personalized and fun-filled birthday party.",
+        "large_description": "Birthdays are a time to celebrate, and our birthday party planning services are designed to create a fun and memorable event for you and your guests. We offer a range of services that can be tailored to suit all ages and preferences. From themed parties for children to sophisticated soirées for adults, we handle everything from venue selection and decorations to entertainment and catering. Our team works closely with you to bring your vision to life, ensuring that every detail is perfect. Whether you're planning a surprise party for a loved one or a milestone birthday celebration, we provide creative ideas and professional planning to make it an event to remember. Our goal is to create a joyful atmosphere that reflects your personality and makes your birthday celebration special and unique. Let us take care of the details so you can enjoy a stress-free and unforgettable birthday party.",
+        "button_text": "Plan Your Birthday"
+    },
+    {
+        "id": "3",
+        "name": "Anniversaries",
+        "image": "https://i.ibb.co/4Sh6Yn3/Anniversaries.png",
+        "price": "$1000",
+        "short_description": "Celebrate your love and milestones with a beautifully planned anniversary event.",
+        "large_description": "Anniversaries are a special time to reflect on your journey together and celebrate your love. Our anniversary event planning services are designed to create a memorable celebration that honors your unique relationship. We offer a range of options from intimate dinners to grand parties, ensuring that your event is tailored to your preferences and style. Our services include venue selection, customized decor, catering, and entertainment. We work closely with you to understand your vision and create an atmosphere that is romantic and meaningful. Whether you are celebrating your first anniversary or a significant milestone, we handle all the details so you can focus on enjoying your special day with your loved one. Our goal is to create a memorable and heartfelt event that celebrates your love and commitment. Let us help you plan an anniversary celebration that you will cherish for years to come.",
+        "button_text": "Celebrate Your Anniversary"
+    },
+    {
+        "id": "4",
+        "name": "Engagement Parties",
+        "image": "https://i.ibb.co/FWS2NMC/Engagement.png",
+        "price": "$1200",
+        "short_description": "Announce your engagement with a stylish and joyful party.",
+        "large_description": "An engagement is a joyous occasion that deserves to be celebrated with family and friends. Our engagement party planning services are designed to create a celebration that reflects your love and excitement for the future. We offer a range of services including venue selection, decorations, catering, and entertainment. Our team works closely with you to bring your vision to life, ensuring that every detail is perfect. Whether you prefer a casual gathering or an elegant affair, we handle all the details so you can enjoy a stress-free celebration. Our goal is to create a memorable event that celebrates your engagement and sets the tone for your upcoming wedding. Let us help you plan an engagement party that you will cherish forever.",
+        "button_text": "Plan Your Engagement Party"
+    },
+    {
+        "id": "5",
+        "name": "Retirement Parties",
+        "image": "https://i.ibb.co/KFKZd53/Retirement.png",
+        "price": "$900",
+        "short_description": "Celebrate a lifetime of achievements with a memorable retirement party.",
+        "large_description": "Retirement marks a significant milestone and the beginning of a new chapter in life. Our retirement party planning services are designed to create a memorable celebration that honors the retiree’s career and achievements. We offer a range of options from casual gatherings to grand parties, ensuring that the event reflects the retiree’s personality and preferences. Our services include venue selection, decorations, catering, and entertainment. We work closely with you to understand your vision and create an event that is meaningful and enjoyable. Whether you are planning a retirement party for a colleague, family member, or friend, we handle all the details so you can focus on celebrating this special occasion. Our goal is to create a memorable and heartfelt event that celebrates the retiree’s contributions and provides a fitting send-off to a new chapter in life.",
+        "button_text": "Plan Your Retirement Party"
+    },
+    {
+        "id": "6",
+        "name": "Baby Showers",
+        "image": "https://i.ibb.co/5sXZB5q/Baby-Shower.png",
+        "price": "$700",
+        "short_description": "Welcome the new arrival with a joyful and beautifully decorated baby shower.",
+        "large_description": "A baby shower is a joyous occasion that celebrates the upcoming arrival of a new baby. Our baby shower planning services are designed to create a memorable event that reflects your personal style and preferences. We offer a range of services including venue selection, decorations, games, and catering. Our team works closely with you to bring your vision to life, ensuring that every detail is perfect. Whether you prefer a traditional baby shower, a gender reveal party, or a modern celebration, we handle all the details so you can enjoy a stress-free event. Our goal is to create a warm and celebratory atmosphere that celebrates the new arrival and provides a memorable experience for the parents-to-be and their guests. Let us help you plan a baby shower that is filled with joy and anticipation.",
+        "button_text": "Plan Your Baby Shower"
+    },
+    {
+        "id": "7",
+        "name": "Holiday Parties",
+        "image": "https://i.ibb.co/H2SyDRZ/Holiday.png",
+        "price": "$1000",
+        "short_description": "Celebrate the season with a festive and memorable holiday party.",
+        "large_description": "Holiday parties are a wonderful way to celebrate the season and bring people together. Our holiday party planning services are designed to create a festive atmosphere that reflects your personal style and preferences. We offer a range of options from traditional holiday celebrations to themed parties, ensuring that your event is tailored to your needs. Our services include venue selection, decorations, catering, and entertainment. Our team works closely with you to understand your vision and create an event that is both festive and memorable. Whether you are planning a Christmas party, New Year’s Eve celebration, or another holiday event, we handle all the details so you can enjoy a stress-free celebration. Our goal is to create a joyous event that celebrates the holiday season and provides a memorable experience for you and your guests.",
+        "button_text": "Plan Your Holiday Party"
+    },
+    {
+        "id": "8",
+        "name": "Graduation Parties",
+        "image": "https://i.ibb.co/ftgMBJ6/Graduation.png",
+        "price": "$600",
+        "short_description": "Celebrate academic achievements with a fun and festive graduation party.",
+        "large_description": "Graduation is a significant milestone that deserves to be celebrated with a memorable party. Our graduation party planning services are designed to create a fun and festive atmosphere that reflects the graduate’s achievements and personality. We offer a range of services including venue selection, decorations, entertainment, and catering. Our team works closely with you to bring your vision to life, ensuring that every detail is perfect. Whether you prefer a traditional graduation party, a themed celebration, or a casual gathering, we handle all the details so you can enjoy a stress-free event. Our goal is to create a memorable event that celebrates the graduate’s hard work and achievements and provides a joyous experience for family and friends. Let us help you plan a graduation party that is both fun and meaningful.",
+        "button_text": "Plan Your Graduation Party"
+    },
+    {
+        "id": "9",
+        "name": "Reunions",
+        "image": "https://i.ibb.co/W26MsfR/Reunions.png",
+        "price": "$1100",
+        "short_description": "Reconnect and reminisce with a well-organized reunion event.",
+        "large_description": "Reunions are a wonderful way to reconnect with old friends, classmates, or family members and reminisce about shared experiences. Our reunion planning services are designed to create a memorable event that reflects the unique history and bonds of your group. We offer a range of services including venue selection, decorations, entertainment, and catering. Our team works closely with you to understand your vision and create an event that is both meaningful and enjoyable. Whether you are planning a family reunion, a class reunion, or a gathering of old friends, we handle all the details so you can enjoy a stress-free celebration. Our goal is to create a memorable event that celebrates your shared history and provides an enjoyable experience for all attendees. Let us help you plan a reunion that is both fun and memorable.",
+        "button_text": "Plan Your Reunion"
+    },
+    {
+        "id": "10",
+        "name": "Baby's First Birthday",
+        "image": "https://i.ibb.co/JFKYBdN/Birthday.png",
+        "price": "$700",
+        "short_description": "Celebrate your baby's first milestone with a joyful and memorable birthday party.",
+        "large_description": "Your baby’s first birthday is a special milestone that deserves to be celebrated with a memorable party. Our first birthday party planning services are designed to create a joyful and festive event that reflects your baby’s unique personality. We offer a range of services including venue selection, decorations, entertainment, and catering. Our team works closely with you to bring your vision to life, ensuring that every detail is perfect. Whether you prefer a themed party, a casual gathering, or an elaborate celebration, we handle all the details so you can enjoy a stress-free event. Our goal is to create a memorable and fun celebration that honors your baby’s first year and provides a joyous experience for family and friends. Let us help you plan a first birthday party that you and your baby will cherish forever.",
+        "button_text": "Plan Your Baby's First Birthday"
+    },
+    {
+        "id": "11",
+        "name": "Christenings",
+        "image": "https://i.ibb.co/d56BP3B/Christenings.png",
+        "price": "$800",
+        "short_description": "Celebrate your child's christening with a beautifully planned event.",
+        "large_description": "A christening is a special and sacred occasion that marks the beginning of a child’s spiritual journey. Our christening event planning services are designed to create a meaningful and memorable celebration that honors this significant milestone. We offer a range of services including venue selection, decorations, catering, and coordination. Our team works closely with you to understand your vision and preferences, ensuring that every detail reflects the importance of the event. Whether you are planning a small, intimate ceremony or a larger gathering, we handle all the details so you can focus on celebrating your child’s christening with family and friends. Our goal is to create a beautiful and heartfelt event that celebrates your child’s christening and provides lasting memories for your family. Let us help you plan a christening celebration that is both meaningful and memorable.",
+        "button_text": "Plan Your Christening"
+    },
+    {
+        "id": "12",
+        "name": "Bar and Bat Mitzvahs",
+        "image": "https://i.ibb.co/JjSM8nD/Bar-and-Bat-Mitzvahs.png",
+        "price": "$3000",
+        "short_description": "Celebrate this significant milestone with a meaningful and joyous Bar or Bat Mitzvah.",
+        "large_description": "A Bar or Bat Mitzvah is a significant milestone in a young person’s life, marking their transition into adulthood within the Jewish community. Our Bar and Bat Mitzvah planning services are designed to create a meaningful and joyous celebration that reflects the importance of this event. We offer a range of services including venue selection, decorations, entertainment, and catering. Our team works closely with you to understand your vision and preferences, ensuring that every detail is perfect. Whether you prefer a traditional ceremony followed by a festive reception or a more modern celebration, we handle all the details so you can focus on celebrating this special occasion with family and friends. Our goal is to create a memorable and meaningful event that honors your child’s achievements and provides a joyous experience for everyone involved. Let us help you plan a Bar or Bat Mitzvah that you and your child will cherish forever.",
+        "button_text": "Plan Your Bar/Bat Mitzvah"
+    }
+]
