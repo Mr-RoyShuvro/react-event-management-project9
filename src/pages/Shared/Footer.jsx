@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
             <footer className="footer text-base-content bg-no-repeat bg-cover" style={{ backgroundImage: 'url(https://i.ibb.co/9gDJDtW/Screenshot-1701.png)' }}>
                 <div className="hero-overlay bg-opacity-55">
-                    <div className="grid grid-cols-2 md:grid-cols-5 max-w-6xl mx-auto text-white pt-20 pb-14">
+                    <div className="grid grid-cols-2 md:grid-cols-5 max-w-6xl mx-auto text-white pt-20 pb-14 p-2">
                         <nav className="col-span-1 flex flex-col gap-2">
                             <h6 className="pb-4 text-lg font-semibold text-white">Services</h6>
                             <a className="link link-hover">Branding</a>
@@ -20,7 +20,7 @@ const Footer = () => {
                             <a className="link link-hover">Jobs</a>
                             <a className="link link-hover">Press kit</a>
                         </nav>
-                        <nav className="col-span-2 flex flex-col gap-2">
+                        <nav className="col-span-1 md:col-span-2 flex flex-col gap-2">
                             <h6 className="pb-4 text-lg font-semibold text-white">Legal</h6>
                             <a className="link link-hover">Terms of use</a>
                             <a className="link link-hover">Privacy policy</a>
