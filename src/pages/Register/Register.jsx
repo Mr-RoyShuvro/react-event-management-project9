@@ -1,14 +1,29 @@
 import { Link } from "react-router-dom";
 import Navbar from "../Shared/Navbar";
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProviders";
 
 const Register = () => {
+
+    const {createUser, user} = useContext(AuthContext);
 
     const handleRegister = e => {
         e.preventDefault();
         const form = new FormData(e.currentTarget);
         const email = form.get('email');
         const password = form.get('password');
-        console.log(email, password);
+        const gender = form.get('gender');
+        const date = form.get('date');
+        const name = form.get('first_name');
+        console.log(email, password, gender, date, name);
+
+        createUser(email, password)
+        .then(result => {
+            console.log(result.user);
+        })
+        .then(error => {
+            console.error(error);
+        })
     }
 
     return (
@@ -17,7 +32,7 @@ const Register = () => {
                 <Navbar></Navbar>
             </div>
             <div className="hero min-h-screen md:max-w-xl mx-auto my-10">
-                <div className="card shrink-0 w-full shadow-2xl bg-gradient-to-r from-red-600 to-yellow-500">
+                <div className="card shrink-0 w-full shadow-2xl bg-base-100">
                     <form onSubmit={handleRegister} className="card-body">
                         <div className="flex flex-col md:flex-row gap-20">
                             <div className="form-control">
@@ -38,7 +53,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text text-white text-base font-medium">Gender</span>
                                 </label>
-                                <select className="select select-warning w-full">
+                                <select name="gender" className="select select-warning w-full" required>
                                     <option disabled selected>Gender</option>
                                     <option>Male</option>
                                     <option>Female</option>
@@ -77,7 +92,7 @@ const Register = () => {
                         </div>
 
                         <div className="form-control mt-6">
-                            <button className="btn btn-primary">Register</button>
+                            <button className="btn text-white text-base font-semibold bg-gradient-to-r from-red-600 to-yellow-500 hover:from-yellow-500 hover:to-red-600">Register</button>
                         </div>
                     </form>
                     <p className="text-center pb-5">Already have an account? Please <Link className="text-blue-600 font-bold" to="/login">Login</Link></p>
