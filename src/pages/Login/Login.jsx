@@ -6,7 +6,7 @@ import { AuthContext } from "../../providers/AuthProviders";
 
 const Login = () => {
 
-    const {signIn} = useContext(AuthContext);
+    const {signIn, googleLogIn} = useContext(AuthContext);
 
     const location = useLocation();
     const navigate = useNavigate();
@@ -26,6 +26,18 @@ const Login = () => {
         })
         .catch(error =>{
             console.error(error);
+        })
+    }
+
+    const handleGoogleSignIn = () =>{
+        googleLogIn()
+        .then(result=>{
+            console.log(result.user);
+
+            navigate(location?.state ? location.state : "/");
+        })
+        .catch(error=>{
+            console.log(error);
         })
     }
 
@@ -54,6 +66,7 @@ const Login = () => {
                         </div>
                         <div className="form-control mt-6">
                             <button className="btn text-white text-base font-semibold bg-gradient-to-r from-red-600 to-yellow-500 hover:from-yellow-500 hover:to-red-600">Login</button>
+                            <button onClick={handleGoogleSignIn} className="border-2 border-yellow-400 rounded-lg py-2 text-yellow-500 hover:bg-yellow-500 hover:text-white font-bold mt-3">Login With Google</button>
                         </div>
                     </form>
                     <p className="text-center pb-5">Do not have an account? Please <Link className="text-blue-600 font-bold" to="/register">Register</Link></p>
