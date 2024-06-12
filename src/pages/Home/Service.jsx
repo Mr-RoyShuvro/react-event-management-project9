@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Service = ({ service }) => {
     const { id, name, image, price, short_description, large_description, button_text } = service;
@@ -9,7 +10,7 @@ const Service = ({ service }) => {
                 <p>{short_description}</p>
                 <div className="card-actions flex gap-5">
                     <button className="border-2 border-yellow-400 px-3 py-2 font-medium rounded-lg text-yellow-400 ">{price}</button>
-                    <button className="btn border-none flex-grow font-medium hover:bg-yellow-500 bg-orange-500 text-white">{button_text}</button>
+                    <Link to={`/services/${id}`}><button className="btn border-none flex-grow font-medium hover:bg-yellow-500 bg-orange-500 text-white">{button_text}</button></Link>
                 </div>
             </div>
         </div>
