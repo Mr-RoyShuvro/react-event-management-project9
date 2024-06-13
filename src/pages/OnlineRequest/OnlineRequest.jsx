@@ -1,7 +1,12 @@
+import { ToastContainer, toast } from "react-toastify";
 import Navbar from "../Shared/Navbar";
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const OnlineRequest = () => {
+
+    const notify = () => toast.success("You have requested online successfully! We will contact with you soon.");
+
     return (
         <div>
             <div className="bg-slate-500">
@@ -69,9 +74,21 @@ const OnlineRequest = () => {
 
 
                         <div className="form-control mt-6">
-                            <button className="btn text-white text-base font-semibold bg-gradient-to-r from-red-600 to-yellow-500 hover:from-yellow-500 hover:to-red-600">Confirm Request</button>
+                            <button onClick={notify} className="btn text-white text-base font-semibold bg-gradient-to-r from-red-600 to-yellow-500 hover:from-yellow-500 hover:to-red-600">Confirm Request</button>
                         </div>
                     </form>
+                    <ToastContainer
+                        position="top-right"
+                        autoClose={5000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                        theme="colored"
+                        transition:Bounce/>
                 </div>
             </div>
         </div>
