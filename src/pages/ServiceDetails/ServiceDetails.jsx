@@ -27,7 +27,7 @@ const ServiceDetails = () => {
                         <div className=" bg-orange-200 w-full px-4 rounded-2xl py-10 ">
                             <h3 className="text-gray-800 mb-5">{service.short_description}</h3>
                             <h3 className="bg-slate-50 py-2 text-center rounded-lg text-base font-medium text-orange-400">Price: {service.price}</h3>
-                            <button className="btn text-white text-base font-medium bg-gradient-to-r from-red-600 to-yellow-500 hover:from-yellow-500 hover:to-red-600 w-full border-none mt-5">Online Request</button>
+                            <Link to="/online"><button className="btn text-white text-base font-medium bg-gradient-to-r from-red-600 to-yellow-500 hover:from-yellow-500 hover:to-red-600 w-full border-none mt-5">Online Request</button></Link>
                         </div>
                     </div>
                 </div>
