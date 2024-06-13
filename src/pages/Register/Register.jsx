@@ -37,13 +37,13 @@ const Register = () => {
                         <div className="flex flex-col md:flex-row gap-20">
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text text-white text-base font-medium">First Name</span>
+                                    <span className="label-text text-base font-medium">First Name</span>
                                 </label>
                                 <input name="first_name" type="first_name" placeholder="First Name" className="input input-bordered input-warning" required />
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text text-white text-base font-medium">Last Name</span>
+                                    <span className="label-text text-base font-medium">Last Name</span>
                                 </label>
                                 <input name="last_name" type="last_name" placeholder="Last Name" className="input input-bordered input-warning" required />
                             </div>
@@ -51,7 +51,7 @@ const Register = () => {
                         <div className="flex flex-col md:flex-row gap-48">
                             <div>
                                 <label className="label">
-                                    <span className="label-text text-white text-base font-medium">Gender</span>
+                                    <span className="label-text text-base font-medium">Gender</span>
                                 </label>
                                 <select name="gender" className="select select-warning w-full" required>
                                     <option disabled selected>Gender</option>
@@ -61,32 +61,32 @@ const Register = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text text-white text-base font-medium">Date of Birth</span>
+                                    <span className="label-text text-base font-medium">Date of Birth</span>
                                 </label>
                                 <input name="date" type="date" placeholder="Date of Birth" className="input input-bordered input-warning" required />
                             </div>
                         </div>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text text-white text-base font-medium">Email</span>
+                                <span className="label-text text-base font-medium">Email</span>
                             </label>
                             <input name="email" type="email" placeholder="Email" className="input input-bordered input-warning" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text text-white text-base font-medium">Password</span>
+                                <span className="label-text text-base font-medium">Password</span>
                             </label>
                             <input name="password" type="password" placeholder="Password" className="input input-bordered input-warning" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text text-white text-base font-medium">Phone</span>
+                                <span className="label-text text-base font-medium">Phone</span>
                             </label>
                             <input name="phone" type="phone" placeholder="Phone" className="input input-bordered input-warning" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text text-white text-base font-medium">Address</span>
+                                <span className="label-text text-base font-medium">Address</span>
                             </label>
                             <input name="address" type="address" placeholder="Address" className="input input-bordered input-warning" required />
                         </div>

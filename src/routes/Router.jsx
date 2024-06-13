@@ -6,6 +6,7 @@ import Register from "../pages/Register/Register";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
 import OnlineRequest from "../pages/OnlineRequest/OnlineRequest";
+import Contact from "../pages/Contact/Contact";
 
 
 const Router = createBrowserRouter([
@@ -33,6 +34,10 @@ const Router = createBrowserRouter([
             {
                 path: "/online",
                 element: <PrivateRoute><OnlineRequest></OnlineRequest></PrivateRoute>
+            },
+            {
+                path: "/contact",
+                element: <Contact></Contact>
             }
    
         ]

@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const OnlineRequest = () => {
 
-    const notify = () => toast.success("You have requested online successfully! We will contact with you soon.");
+    const notify = () => toast.success("You have requested online successfully!");
 
     return (
         <div>
@@ -18,13 +18,13 @@ const OnlineRequest = () => {
                         <div className="flex flex-col md:flex-row gap-20">
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text text-white text-base font-medium">Your Name</span>
+                                    <span className="label-text text-base font-medium">Your Name</span>
                                 </label>
                                 <input name="name" type="name" placeholder="Your Name" className="input input-bordered input-warning" required />
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text text-white text-base font-medium">Phone</span>
+                                    <span className="label-text text-base font-medium">Phone</span>
                                 </label>
                                 <input name="phone" type="phone" placeholder="Phone" className="input input-bordered input-warning" required />
                             </div>
@@ -32,7 +32,7 @@ const OnlineRequest = () => {
                         <div className="flex flex-col md:flex-row gap-28">
                             <div>
                                 <label className="label">
-                                    <span className="label-text text-white text-base font-medium">Event Category</span>
+                                    <span className="label-text text-base font-medium">Event Category</span>
                                 </label>
                                 <select name="gender" className="select select-warning w-full" required>
                                     <option disabled selected>Event Category</option>
@@ -53,21 +53,21 @@ const OnlineRequest = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text text-white text-base font-medium">Event Date</span>
+                                    <span className="label-text text-base font-medium">Event Date</span>
                                 </label>
                                 <input name="date" type="date" placeholder="Date of Birth" className="input input-bordered input-warning" required />
                             </div>
                         </div>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text text-white text-base font-medium">Your Address</span>
+                                <span className="label-text text-base font-medium">Your Address</span>
                             </label>
                             <input name="address" type="address" placeholder="Your Address" className="input input-bordered input-warning" required />
                         </div>
 
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text text-white text-base font-medium">Message</span>
+                                <span className="label-text text-base font-medium">Message</span>
                             </label>
                             <textarea className="textarea textarea-warning h-40" placeholder="Message"></textarea>
                         </div>

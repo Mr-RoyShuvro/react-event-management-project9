@@ -19,7 +19,7 @@ const ServiceDetails = () => {
                 <img className="w-full" src={service.image} alt="" />
                 <div className="max-w-5xl mx-auto mt-10 mb-20">
                     <h3 className="text-3xl font-bold text-yellow-400 mb-5">{service.name}</h3>
-                    <div className="flex gap-5">
+                    <div className="flex flex-col md:flex-row gap-5">
                         <div className="max-w-3xl">
                             <h3>{service.large_description}</h3>
                             <Link to="/"><button className="btn border-none flex-grow font-medium hover:bg-orange-600 bg-orange-500 text-white mt-10">Go Back To Home</button></Link>
