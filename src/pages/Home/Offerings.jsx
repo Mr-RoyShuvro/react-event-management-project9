@@ -7,14 +7,14 @@ import { LiaPlaceOfWorshipSolid } from 'react-icons/lia';
 const Card = ({ bgColor, IconComponent, title, description }) => {
     return (
         <div className={`card ${bgColor} shadow-2xl group relative overflow-hidden transition-all duration-300 h-80`}>
-            {/* Default content (Icon and Title) */}
+            {/* Default */}
             <div className="flex flex-col items-center justify-center h-full transition-opacity duration-300 group-hover:opacity-0">
                 <figure className="mb-4">
                     <IconComponent className="w-16 h-16 text-white" />
                 </figure>
                 <h2 className="text-white text-xl font-bold">{title}</h2>
             </div>
-            {/* Hover content (Title and Description) */}
+            {/* Hover */}
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 text-center">
                 <h2 className="text-gray-800 text-xl font-bold mb-2">{title}</h2>
                 <p className="text-gray-600 text-sm">{description}</p>
@@ -52,7 +52,10 @@ const Offerings = () => {
     ];
 
     return (
-        <div className="max-w-6xl mx-auto mt-40 mb-20">
+        <div className="max-w-6xl mx-auto mt-36 mb-36">
+            <h2 className="text-center text-3xl font-extrabold text-rose-500 pb-3">It’s simple. You have an event to plan and
+               <br /> we have the solutions</h2>
+            <h3 className="text-center text-lg font-medium pb-10">Here is how we can help you</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
                 {cards.map((card, index) => (
                     <Card
