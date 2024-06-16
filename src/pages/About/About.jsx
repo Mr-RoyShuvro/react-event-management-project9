@@ -75,11 +75,8 @@ const AboutSlider = () => {
 
     return (
         <div>
-            <div className="bg-slate-500">
-                <Navbar></Navbar>
-            </div>
             <div className="min-h-screen " style={{ backgroundImage: 'url(https://i.ibb.co/M8Q9xMk/Screenshot-1710.png)' }}>
-                <div className="hero-overlay bg-opacity-30 min-h-screen">
+                <div className="hero-overlay bg-opacity-30 min-h-screen pb-28">
                     <h3 className="text-center text-xl font-medium pb-3 text-white pt-20">Our best team</h3>
                     <h3 className="text-center text-3xl font-extrabold text-yellow-300 pb-10">Our Team of Professionals</h3>
                     <div className="about-slider-container">

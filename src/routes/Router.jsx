@@ -6,8 +6,9 @@ import Register from "../pages/Register/Register";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
 import OnlineRequest from "../pages/OnlineRequest/OnlineRequest";
-import Contact from "../pages/Contact/Contact";
-import About from "../pages/About/About";
+import ServicesSection from "../pages/ServicesSection/ServicesSection";
+import AboutSection from "../pages/AboutSection/AboutSection";
+import ContactSection from "../pages/ContactSection/ContactSection";
 
 
 const Router = createBrowserRouter([
@@ -38,11 +39,15 @@ const Router = createBrowserRouter([
             },
             {
                 path: "/contact",
-                element: <Contact></Contact>
+                element: <PrivateRoute><ContactSection></ContactSection></PrivateRoute>
             },
             {
                 path: "/about",
-                element: <About></About>
+                element: <PrivateRoute><AboutSection></AboutSection></PrivateRoute>
+            },
+            {
+                path: "/services",
+                element: <PrivateRoute><ServicesSection></ServicesSection></PrivateRoute>
             }
    
         ]

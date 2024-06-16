@@ -12,9 +12,6 @@ const Contact = () => {
 
     return (
         <div>
-            <div className="bg-slate-500">
-                <Navbar></Navbar>
-            </div>
             <div className="flex flex-col md:flex-row my-40 gap-10 max-w-6xl mx-auto">
                 <div>
                     <h3 className="text-xl font-medium pb-3">Contact Us</h3>
