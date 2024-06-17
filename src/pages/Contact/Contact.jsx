@@ -1,5 +1,4 @@
 import { ToastContainer, toast } from "react-toastify";
-import Navbar from "../Shared/Navbar";
 import { GrLocation } from "react-icons/gr";
 import { HiOutlineMail } from "react-icons/hi";
 import { LuPhone } from "react-icons/lu";

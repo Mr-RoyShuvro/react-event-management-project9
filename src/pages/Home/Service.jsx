@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
 const Service = ({ service }) => {
-    const { id, name, image, price, short_description, large_description, button_text } = service;
+    const { id, name, image, price, short_description, button_text } = service;
     return (
         <div className="card bg-base-100 shadow-xl">
             <figure><img className="h-60" src={image} alt="Services" /></figure>
@@ -18,3 +19,7 @@ const Service = ({ service }) => {
 };
 
 export default Service;
+
+Service.propTypes = {
+    service: PropTypes.object
+}

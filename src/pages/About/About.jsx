@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Navbar from "../Shared/Navbar";
 
 const AboutSlider = () => {
     const settings = {
@@ -11,7 +10,23 @@ const AboutSlider = () => {
         autoplay: true,
         autoplaySpeed: 3000,
         pauseOnHover: true,
-        arrows: true // Show navigation arrows
+        arrows: true, // Show navigation arrows
+        responsive: [
+            {
+                breakpoint: 1024, // Width at which the settings will apply
+                settings: {
+                    slidesToShow: 2, // Number of slides to show at this breakpoint
+                    slidesToScroll: 1, // Number of slides to scroll at this breakpoint
+                },
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
     };
 
     const slidesData = [

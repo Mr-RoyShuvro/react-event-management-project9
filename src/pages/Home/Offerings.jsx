@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 import { BsCameraReels } from 'react-icons/bs';
 import { GiTrumpet } from 'react-icons/gi';
 import { HiOutlineLightBulb } from 'react-icons/hi';
@@ -52,7 +52,7 @@ const Offerings = () => {
     ];
 
     return (
-        <div className="max-w-6xl mx-auto mt-36 mb-36">
+        <div className="max-w-6xl mx-auto mt-20 mb-36">
             <h2 className="text-center text-3xl font-extrabold text-rose-500 pb-3">It’s simple. You have an event to plan and
                <br /> we have the solutions</h2>
             <h3 className="text-center text-lg font-medium pb-10">Here is how we can help you</h3>
@@ -72,3 +72,11 @@ const Offerings = () => {
 };
 
 export default Offerings;
+
+
+Offerings.propTypes = {
+    bgColor: PropTypes.string,
+    IconComponent: PropTypes.func,
+    title: PropTypes.string,
+    description: PropTypes.string
+}
