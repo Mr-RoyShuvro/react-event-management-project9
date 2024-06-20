@@ -3,7 +3,10 @@ import { GrLocation } from "react-icons/gr";
 import { HiOutlineMail } from "react-icons/hi";
 import { LuPhone } from "react-icons/lu";
 import { MdOutlineWatchLater } from "react-icons/md";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Contact = () => {
 
@@ -17,32 +20,40 @@ const Contact = () => {
                     <h2 className="text-4xl font-extrabold text-rose-500 pb-5">Get In Touch</h2>
                     <p className="text-base pb-5">Reach out to us through phone or email. We are committed to providing prompt support and answering all your inquiries.</p>
                     <div className="grid grid-cols-2 gap-5">
-                        <div className="card glass">
-                            <figure><GrLocation className="w-16 h-16 mt-5 text-orange-500"></GrLocation></figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Location</h2>
-                                <p>123, New Lenox Chicago, IL 60606</p>
+                        <div data-aos="zoom-in">
+                            <div className="card glass h-60">
+                                <figure><GrLocation className="w-16 h-16 mt-5 text-orange-500"></GrLocation></figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Location</h2>
+                                    <p>123, New Lenox Chicago, IL 60606</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="card glass">
-                            <figure><HiOutlineMail className="w-16 h-16 mt-5 text-orange-500"></HiOutlineMail></figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Email</h2>
-                                <p>partymaker@gmail.com</p>
+                        <div data-aos="zoom-in">
+                            <div className="card glass  h-60">
+                                <figure><HiOutlineMail className="w-16 h-16 mt-5 text-orange-500"></HiOutlineMail></figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Email</h2>
+                                    <p>partymaker@gmail.com</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="card glass">
-                            <figure><LuPhone className="w-16 h-16 mt-5 text-orange-500"></LuPhone></figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Phone</h2>
-                                <p>444-333-2211</p>
+                        <div data-aos="zoom-in">
+                            <div className="card glass  h-60">
+                                <figure><LuPhone className="w-16 h-16 mt-5 text-orange-500"></LuPhone></figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Phone</h2>
+                                    <p>444-333-2211</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="card glass">
-                            <figure> <MdOutlineWatchLater className="w-16 h-16 mt-5 text-orange-500"></MdOutlineWatchLater></figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Opening Hours</h2>
-                                <p>Mon - Fri : 09.00 AM - 18.00 PM</p>
+                        <div data-aos="zoom-in">
+                            <div className="card glass  h-60">
+                                <figure> <MdOutlineWatchLater className="w-16 h-16 mt-5 text-orange-500"></MdOutlineWatchLater></figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Opening Hours</h2>
+                                    <p>Mon - Fri : 09.00 AM - 18.00 PM</p>
+                                </div>
                             </div>
                         </div>
                     </div>
